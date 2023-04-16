@@ -1,0 +1,61 @@
+.container {
+  height: 100vh;
+  background-color: #07080c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.speedometer {
+  width: 60%;
+}
+
+.title {
+  font-family: 'Roboto';
+  color: #ffffff;
+}
+
+.heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 25px;
+}
+
+.limits {
+  font-family: 'Roboto';
+  color: #94a3b8;
+}
+
+.buttons-container {
+  display: flex;
+}
+
+.button1 {
+  background-color: #0b69ff;
+  font-family: 'Robot';
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 13px;
+  font-family: 'Roboto';
+  cursor: pointer;
+  outline: none;
+  border-width: 0px;
+  margin: 10px;
+}
+
+.button2 {
+  font-family: 'Roboto';
+  background-color: transparent;
+  font-family: 'Robot';
+  color: #94a3b8;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 13px;
+  font-family: 'Roboto';
+  cursor: pointer;
+  outline: none;
+  border: 2px solid #94a3b8;
+  margin: 10px;
+}
